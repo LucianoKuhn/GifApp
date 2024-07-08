@@ -1,4 +1,11 @@
 #sidebar{
     width: 300px;
-    height: 100vh;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    #sidebar{
+        width: 150px;
+    
+    }
 }
